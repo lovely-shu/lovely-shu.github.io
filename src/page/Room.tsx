@@ -1,26 +1,26 @@
 import { Box, Typography, useMediaQuery, useTheme } from "@mui/material";
 import DrawerHeader from "../common/DrawerHeader";
 import Empty from "../common/Empty";
-import img1 from "../assets/room/연습실 내부.jpeg";
-import img2 from "../assets/room/연습실내부2.jpeg";
-import img3 from "../assets/room/연습실내부3.jpeg";
-import img4 from "../assets/room/복도.jpeg";
-import img5 from "../assets/room/홀3.jpeg";
-import img6 from "../assets/room/복도3.jpeg";
-import img8 from "../assets/room/거울.jpeg";
-import img9 from "../assets/room/로비.jpeg";
-import img10 from "../assets/room/방입구.jpeg";
-import img11 from "../assets/room/쇼파.jpeg";
-import img12 from "../assets/room/합주실.jpeg";
-import img13 from "../assets/room/합주실2.jpeg";
-import img14 from "../assets/room/화장실.jpeg";
-import img15 from "../assets/room/화장실2.jpeg";
-import img16 from "../assets/room/피아노.jpeg";
-import img17 from "../assets/room/개수대.jpeg";
-import img18 from "../assets/room/개수대2.jpeg";
-import img19 from "../assets/room/소독.jpeg";
-import img20 from "../assets/room/청소.jpeg";
-import img21 from "../assets/room/청소2.jpeg";
+import img1 from "../assets/room/1.jpeg";
+import img2 from "../assets/room/2.jpeg";
+import img3 from "../assets/room/3.jpeg";
+import img4 from "../assets/room/4.jpeg";
+import img5 from "../assets/room/5.jpeg";
+import img6 from "../assets/room/6.jpeg";
+import img8 from "../assets/room/7.jpeg";
+import img9 from "../assets/room/8.jpeg";
+import img10 from "../assets/room/9.jpeg";
+import img11 from "../assets/room/10.jpeg";
+import img12 from "../assets/room/11.jpeg";
+import img13 from "../assets/room/12.jpeg";
+import img14 from "../assets/room/13.jpeg";
+import img15 from "../assets/room/14.jpeg";
+import img16 from "../assets/room/15.jpeg";
+import img17 from "../assets/room/16.jpeg";
+import img18 from "../assets/room/17.jpeg";
+import img19 from "../assets/room/18.jpeg";
+import img20 from "../assets/room/19.jpeg";
+import img21 from "../assets/room/20.jpeg";
 const imageBox = (src: string) => {
   return (
     <Box height={"350px"}>
