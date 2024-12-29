@@ -27,7 +27,7 @@ const Home = () => {
       >
         <video
           src={video}
-          height={isMobile ? "88%" : "100%"}
+          height={isMobile ? "85%" : "100%"}
           muted
           autoPlay
           loop
