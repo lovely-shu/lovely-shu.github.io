@@ -18,7 +18,6 @@ const Location = () => {
         }}
         sx={{
           wordBreak: "keep-all",
-          fontSize: isMobile ? "15px" : "16px",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -62,7 +61,7 @@ const Location = () => {
           {Title("서울예대점", "경기 안산시 단원구 예술대학로 149")}
           {Title("고잔점", "경기 안산시 단원구 광덕3로 97")}
         </Box>
-        <Box display={"flex"} justifyContent={"space-evenly"}>
+        <Box display={"flex"} mt={2} justifyContent={"space-evenly"}>
           {Title("광주수완지구점", "광주 광산구 사암로340번안길 6-9")}
           {Title("신길점", "경기 안산시 단원구 신길로 85")}
           {Title("합주실호수점", "경기 안산시 단원구 광덕서로 44")}

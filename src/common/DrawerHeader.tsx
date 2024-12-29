@@ -74,13 +74,13 @@ const DrawerHeader = () => {
       width={"100%"}
       height={"40px"}
       position={"fixed"}
-      top={0}
+      top={10}
       left={0}
       alignItems={"center"}
       zIndex={999}
     >
       <Button onClick={toggleDrawer(true)}>
-        <MenuIcon sx={{ color: "orange" }} />
+        <MenuIcon sx={{ color: "orange", fontSize: "40px" }} />
       </Button>
       <Drawer
         sx={{
@@ -93,7 +93,7 @@ const DrawerHeader = () => {
       >
         {DrawerList}
       </Drawer>
-      <Typography color="orange" pr={1} variant="h6">
+      <Typography color="orange" pr={1} variant="h5">
         Art,Comma
       </Typography>
     </Box>

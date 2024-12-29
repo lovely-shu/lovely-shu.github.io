@@ -39,7 +39,7 @@ const Brand = () => {
                 backgroundSize: "cover",
               }}
             >
-              <Box bgcolor={"rgba(255,255,255,0.6)"} p={5} borderRadius={2}>
+              <Box bgcolor={"rgba(255,255,255,0.9)"} p={5} borderRadius={2}>
                 <Typography
                   sx={{ wordBreak: "keep-all", textAlign: "center" }}
                   variant={isMobile ? "h5" : "h3"}
@@ -86,7 +86,7 @@ const Brand = () => {
                 backgroundSize: "cover",
               }}
             >
-              <Box bgcolor={"rgba(255,255,255,0.6)"} p={5} borderRadius={2}>
+              <Box bgcolor={"rgba(255,255,255,0.9)"} p={5} borderRadius={2}>
                 <Typography
                   variant={isMobile ? "h5" : "h3"}
                   sx={{
@@ -127,7 +127,7 @@ const Brand = () => {
                 backgroundSize: "cover",
               }}
             >
-              <Box bgcolor={"rgba(255,255,255,0.6)"} p={5} borderRadius={2}>
+              <Box bgcolor={"rgba(255,255,255,0.9)"} p={5} borderRadius={2}>
                 <Typography
                   variant={isMobile ? "h5" : "h3"}
                   textAlign={"center"}
@@ -172,7 +172,7 @@ const Brand = () => {
                 backgroundSize: "cover",
               }}
             >
-              <Box bgcolor={"rgba(255,255,255,0.6)"} p={5} borderRadius={2}>
+              <Box bgcolor={"rgba(255,255,255,0.9)"} p={5} borderRadius={2}>
                 <Typography
                   variant={isMobile ? "h5" : "h3"}
                   textAlign={"center"}
@@ -210,7 +210,7 @@ const Brand = () => {
                 backgroundSize: "cover",
               }}
             >
-              <Box bgcolor={"rgba(255,255,255,0.6)"} p={5} borderRadius={2}>
+              <Box bgcolor={"rgba(255,255,255,0.9)"} p={5} borderRadius={2}>
                 <Typography
                   variant={isMobile ? "h5" : "h3"}
                   textAlign={"center"}

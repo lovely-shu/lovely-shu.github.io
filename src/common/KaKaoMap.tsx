@@ -41,7 +41,7 @@ const KaKaoMap = ({ address, name }: mapProps) => {
                  align-items:center; 
                  justify-content:center; 
                  margin:0 auto;
-                 font-size:14px; 
+                 font-size:17px; 
                  font-weight:bold;">${name}</div>`, // 표시할 내용
         });
 

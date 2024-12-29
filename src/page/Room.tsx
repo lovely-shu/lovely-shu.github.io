@@ -46,7 +46,7 @@ const Room = () => {
             margin={"0 auto"}
             flexDirection={"column"}
           >
-            <Typography variant="h5">Room Portfolio</Typography>
+            <Typography variant="h5">연습실 내부</Typography>
             <hr />
             <Box
               width={"100%"}
@@ -67,7 +67,7 @@ const Room = () => {
               <img src={img16} />
             </Box>
             <Typography mt={4} variant="h5">
-              Convenient Facilities
+              호텔식 편의시설
             </Typography>
             <hr />
             <Box
@@ -87,7 +87,7 @@ const Room = () => {
               <img src={img5} />
             </Box>
             <Typography mt={4} variant="h5">
-              Cleaning System
+              아트콤마의 청소 시스템
             </Typography>
             <hr />
             <Box
@@ -112,7 +112,7 @@ const Room = () => {
             margin={"0 auto"}
             flexDirection={"column"}
           >
-            <Typography variant="h4">Room Portfolio</Typography>
+            <Typography variant="h4">연습실 내부</Typography>
             <hr />
           </Box>
           <Box
@@ -156,7 +156,7 @@ const Room = () => {
             flexDirection={"column"}
             mt={3}
           >
-            <Typography variant="h4">Convenient Facilities</Typography>
+            <Typography variant="h4">호텔식 편의시설</Typography>
             <hr />
           </Box>
           <Box
@@ -190,7 +190,7 @@ const Room = () => {
             flexDirection={"column"}
             mt={3}
           >
-            <Typography variant="h4">Cleaning System</Typography>
+            <Typography variant="h4">아트콤마의 청소 시스템</Typography>
             <hr />
           </Box>
           <Box

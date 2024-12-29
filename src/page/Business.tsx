@@ -38,40 +38,59 @@ const Business = () => {
           <Table size="small" sx={{ textAlign: "center", width: "100%" }}>
             <TableHead>
               <TableRow sx={{ bgcolor: "#f0f0f0" }}>
-                <TableCell sx={{ textAlign: "center" }}>기재 항목</TableCell>
+                <TableCell sx={{ textAlign: "center", fontSize: "20px", p: 1 }}>
+                  기재 항목
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
               <TableRow>
-                <TableCell sx={{ textAlign: "center" }}>
+                <TableCell sx={{ textAlign: "center", fontSize: "20px", p: 1 }}>
                   이름 (상호명)
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell sx={{ textAlign: "center" }}>
+                <TableCell sx={{ textAlign: "center", fontSize: "20px", p: 1 }}>
                   연락처 및 이메일
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell sx={{ textAlign: "center" }}>
+                <TableCell sx={{ textAlign: "center", fontSize: "20px", p: 1 }}>
                   시공 예정(희망) 날짜
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell sx={{ textAlign: "center" }}>
+                <TableCell
+                  sx={{
+                    textAlign: "center",
+                    wordBreak: "keep-all",
+                    fontSize: "20px",
+                    p: 1,
+                  }}
+                >
                   부동산 계약 여부(미정, 계약예정, 계약완료, 자가)
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell sx={{ textAlign: "center" }}>
+                <TableCell sx={{ textAlign: "center", fontSize: "20px", p: 1 }}>
                   시공 예산 (최소 5천~)
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell sx={{ textAlign: "center" }}>문의 내용</TableCell>
+                <TableCell sx={{ textAlign: "center", fontSize: "20px", p: 1 }}>
+                  문의 내용
+                </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell sx={{ textAlign: "center", bgcolor: "#f0f0f0" }}>
+                <TableCell
+                  sx={{
+                    textAlign: "center",
+                    bgcolor: "#f0f0f0",
+                    fontSize: "20px",
+                    wordBreak: "keep-all",
+                    p: 1,
+                  }}
+                >
                   문자로 해당 사항을 보내주시면 자세한 상담 도와드리겠습니다.
                   <br /> 010 9034 4440
                 </TableCell>
