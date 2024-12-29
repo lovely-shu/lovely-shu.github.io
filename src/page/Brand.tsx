@@ -60,6 +60,7 @@ const Brand = () => {
                     wordBreak: "keep-all",
                     textAlign: "center",
                     lineHeight: 2,
+                    fontSize: "17px",
                   }}
                 >
                   아트콤마 스튜디오는 예술을 전공하고 현재도 예술인으로 활동
@@ -104,6 +105,7 @@ const Brand = () => {
                     wordBreak: "keep-all",
                     textAlign: "center",
                     lineHeight: 2,
+                    fontSize: "17px",
                   }}
                 >
                   대표는 이러한 경험을 바탕으로 예술인들이 오직 창작에만 몰두할
@@ -141,6 +143,7 @@ const Brand = () => {
                     wordBreak: "keep-all",
                     textAlign: "center",
                     lineHeight: 2,
+                    fontSize: "17px",
                   }}
                 >
                   아트콤마 스튜디오는 최고 수준의 방음 시설을 자랑합니다. <br />
@@ -152,9 +155,7 @@ const Brand = () => {
                   자극하며,
                   <br />
                   단순한 작업실을 넘어 창작의 영감을 불어넣는 공간으로 자리 잡고
-                  있습니다. <br />
-                  편안한 분위기 속에서도 전문성을 갖춘 시설이 예술인의 다양한
-                  작업 요건를 충족시킵니다.
+                  있습니다.
                 </Typography>
               </Box>
             </Box>
@@ -186,6 +187,7 @@ const Brand = () => {
                     wordBreak: "keep-all",
                     textAlign: "center",
                     lineHeight: 2,
+                    fontSize: "17px",
                   }}
                 >
                   아트콤마 스튜디오는 단순히 개인 공간에 그치지 않고, 예술인
@@ -219,7 +221,12 @@ const Brand = () => {
                   창작의 새로운 기준, 아트콤마 스튜디오
                 </Typography>
                 <Typography
-                  sx={{ mt: 2, wordBreak: "keep-all", textAlign: "center" }}
+                  sx={{
+                    mt: 2,
+                    wordBreak: "keep-all",
+                    fontSize: "17px",
+                    textAlign: "center",
+                  }}
                 >
                   아트콤마 스튜디오는 열악한 환경에서 벗어나, 오직 창작에만
                   몰두할 수 있는 환경을 제공합니다. <br /> 편안함과 세련됨,

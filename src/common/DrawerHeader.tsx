@@ -60,7 +60,10 @@ const DrawerHeader = () => {
               sx={{ height: "100%" }}
             >
               <ListItemIcon>{menuIcon[index]}</ListItemIcon>
-              <ListItemText primary={text} />
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "18px" }}
+                primary={text}
+              />
             </ListItemButton>
           </ListItem>
         ))}
