@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.whalesmusic.co.kr/sitemap.xml
+Sitemap: https://whalesmusic.co.kr/sitemap.xml
